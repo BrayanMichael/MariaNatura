@@ -526,3 +526,48 @@ h1 em {
     transition-duration: .01ms!important
   }
 }
+
+.multimedia > .titulo-quien-soy {
+  grid-column: 1 / -1;
+  margin: 0 0 4px;
+}
+.saludo-audio {
+  margin-top: 0;
+  margin-bottom: 14px;
+  color: var(--ink);
+  font-size: 20px;
+  line-height: 1.5;
+}
+.saludo-audio strong {
+  font-weight: 700;
+}
+.video h3 {
+  margin: 0 0 12px;
+  color: var(--ink);
+  font-size: 28px;
+}
+.video p {
+  margin: 0 0 18px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+.multimedia {
+  scroll-margin-top: 90px;
+}
+.multimedia > .titulo-quien-soy {
+  text-align: center;
+  width: 100%;
+}
+.video {
+  aspect-ratio: auto;
+  background: transparent;
+}
+.video h3,
+.video p {
+  text-align: center;
+}
+.video iframe {
+  display: block;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
