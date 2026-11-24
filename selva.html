@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> MaríaNatura - Selva </title>
+    <link rel="stylesheet" href="css/selva.css">
+    <link rel="stylesheet" href="css/menu-footer.css">
+  </head>
+  <body>
+    <header class="encabezado">
+      <a class="marca" href="index.html"> MaríaNatura </a>
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false"> ☰ </button>
+      <nav class="menu">
+        <a href="index.html"> Inicio </a>
+        <a href="costa.html"> Costa </a>
+        <a href="sierra.html"> Sierra </a>
+        <a class="activo" href="selva.html"> Selva </a>
+      </nav>
+    </header>
+    <main>
+      <section class="pagina-hero" style="background-image:url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1500&q=85')">
+        <p class="sobrelinea"> REGIÓN 03 · AMAZONÍA </p>
+        <h1> La Selva </h1>
+        <p> Un universo verde de ríos inmensos, sonidos sorprendentes y una biodiversidad que asombra. </p>
+      </section>
+      <section class="pagina-contenido bloque">
+        <div>
+          <p class="sobrelinea"> EL BOSQUE VIVO </p>
+          <h2> La Amazonía <br> respira en verde. </h2>
+          <p> La selva peruana forma parte de la cuenca amazónica, una de las mayores reservas de diversidad biológica del planeta. En ella conviven bosques, ríos, humedales y pueblos con saberes ancestrales. </p>
+          <p> Su conservación es clave para el equilibrio climático y para la vida de miles de especies. Viajar con respeto ayuda a valorar y proteger este patrimonio. </p>
+          <p class="dato"><strong> Para explorar: </strong> Reserva Nacional Pacaya Samiria · Loreto </p>
+        </div>
+        <img class="pagina-imagen" src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=900&q=80" alt="Vegetación abundante de la selva amazónica">
+      </section>
+      <section class="bloque galeria-region">
+        <div class="galeria-encabezado">
+          <div>
+            <p class="sobrelinea">PAISAJES AMAZÓNICOS</p>
+            <h2>Un bosque lleno de vida</h2>
+          </div>
+          <div class="carrusel-controles" aria-label="Controles de la galería">
+            <button class="carrusel-btn" type="button" data-dir="-1" aria-label="Ver imágenes anteriores">‹</button>
+            <button class="carrusel-btn" type="button" data-dir="1" aria-label="Ver imágenes siguientes">›</button>
+          </div>
+        </div>
+        <div class="galeria-carrusel" data-carousel tabindex="0" aria-label="Galería de selva">
+          <article class="carrusel-slide">
+            <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=800&q=85" alt="Bosque tropical" loading="lazy">
+            <div class="carrusel-leyenda">
+              <h3>Bosque tropical</h3>
+              <p>La vegetación cubre el paisaje amazónico.</p>
+            </div>
+          </article>
+          <article class="carrusel-slide">
+            <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=85" alt="Ríos amazónicos" loading="lazy">
+            <div class="carrusel-leyenda">
+              <h3>Ríos amazónicos</h3>
+              <p>Los ríos conectan comunidades y bosques.</p>
+            </div>
+          </article>
+          <article class="carrusel-slide">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=85" alt="Luz entre los árboles" loading="lazy">
+            <div class="carrusel-leyenda">
+              <h3>Luz entre los árboles</h3>
+              <p>Rayos de sol atraviesan el bosque.</p>
+            </div>
+          </article>
+          <article class="carrusel-slide">
+            <img src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=800&q=85" alt="Senderos verdes" loading="lazy">
+            <div class="carrusel-leyenda">
+              <h3>Senderos verdes</h3>
+              <p>Un camino entre árboles y sombra.</p>
+            </div>
+          </article>
+          <article class="carrusel-slide">
+            <img src="https://images.unsplash.com/photo-1516214104703-d870798883c5?auto=format&fit=crop&w=800&q=85" alt="Vegetación amazónica" loading="lazy">
+            <div class="carrusel-leyenda">
+              <h3>Vegetación amazónica</h3>
+              <p>Formas y tonos de un bosque diverso.</p>
+            </div>
+          </article>
+        </div>
+        <p class="ayuda-carrusel">Desliza las imágenes o usa las flechas para explorar.</p>
+      </section>
+    </main>
+    <footer class="pie">
+      <small> © 2026 - María de los Ángeles Alexandra Lozano Gómez </small>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/carrusel.js"></script>
+  </body>
+</html>

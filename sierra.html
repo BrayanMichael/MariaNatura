@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> MaríaNatura - Sierra </title>
+    <link rel="stylesheet" href="css/sierra.css">
+    <link rel="stylesheet" href="css/menu-footer.css">
+  </head>
+  <body>
+    <header class="encabezado">
+      <a class="marca" href="index.html"> MaríaNatura </a>
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false"> ☰ </button>
+      <nav class="menu">
+        <a href="index.html"> Inicio </a>
+        <a href="costa.html"> Costa </a>
+        <a class="activo" href="sierra.html"> Sierra </a>
+        <a href="selva.html"> Selva </a>
+      </nav>
+    </header>
+    <main>
+      <section class="pagina-hero" style="background-image:url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1500&q=85')">
+        <p class="sobrelinea"> REGIÓN 02 · ANDES </p>
+        <h1> La Sierra </h1>
+        <p> Montañas que rozan el cielo, valles fértiles y caminos que guardan siglos de historia. </p>
+      </section>
+      <section class="pagina-contenido bloque">
+        <div>
+          <p class="sobrelinea"> EL CORAZÓN ANDINO </p>
+          <h2> La altura cambia <br> la perspectiva. </h2>
+          <p> La cordillera de los Andes atraviesa el Perú y crea una variedad de pisos ecológicos. Sus lagunas, nevados y valles son hogar de comunidades que mantienen vivas sus lenguas y tradiciones. </p>
+          <p> El paisaje andino cambia con la altura: desde valles templados hasta montañas cubiertas de nieve, conectadas por antiguos caminos y terrazas agrícolas. </p>
+          <p class="dato"><strong> Para explorar: </strong> Cordillera Blanca · Áncash </p>
+        </div>
+        <img class="pagina-imagen" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80" alt="Cumbres de la cordillera andina">
+      </section>
+      <section class="bloque galeria-region">
+        <div class="galeria-encabezado">
+          <div>
+            <p class="sobrelinea">PAISAJES ANDINOS</p>
+            <h2>Montañas, valles y lagunas</h2>
+          </div>
+          <div class="carrusel-controles" aria-label="Controles de la galería">
+            <button class="carrusel-btn" type="button" data-dir="-1" aria-label="Ver imágenes anteriores">‹</button>
+            <button class="carrusel-btn" type="button" data-dir="1" aria-label="Ver imágenes siguientes">›</button>
+          </div>
+        </div>
+        <div class="galeria-carrusel" data-carousel tabindex="0" aria-label="Galería de sierra">
+          <article class="carrusel-slide">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=85" alt="Cumbres andinas" loading="lazy">
+            <div class="carrusel-leyenda">
+              <h3>Cumbres andinas</h3>
+              <p>Montañas que se elevan sobre los valles.</p>
+            </div>
+          </article>
+          <article class="carrusel-slide">
+            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=85" alt="Cielo de altura" loading="lazy">
+            <div class="carrusel-leyenda">
+              <h3>Cielo de altura</h3>
+              <p>La noche revela otro paisaje andino.</p>
+            </div>
+          </article>
+          <article class="carrusel-slide">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=85" alt="Lagunas altoandinas" loading="lazy">
+            <div class="carrusel-leyenda">
+              <h3>Lagunas altoandinas</h3>
+              <p>Agua y montaña en un mismo horizonte.</p>
+            </div>
+          </article>
+          <article class="carrusel-slide">
+            <img src="https://images.unsplash.com/photo-1464278533981-50106e6176b1?auto=format&fit=crop&w=800&q=85" alt="Senderos de montaña" loading="lazy">
+            <div class="carrusel-leyenda">
+              <h3>Senderos de montaña</h3>
+              <p>Caminos entre laderas y cumbres.</p>
+            </div>
+          </article>
+          <article class="carrusel-slide">
+            <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=800&q=85" alt="Valles de los Andes" loading="lazy">
+            <div class="carrusel-leyenda">
+              <h3>Valles de los Andes</h3>
+              <p>La vida se abre paso entre montañas.</p>
+            </div>
+          </article>
+        </div>
+        <p class="ayuda-carrusel">Desliza las imágenes o usa las flechas para explorar.</p>
+      </section>
+    </main>
+    <footer class="pie">
+      <small> © 2026 - María de los Ángeles Alexandra Lozano Gómez </small>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/carrusel.js"></script>
+  </body>
+</html>

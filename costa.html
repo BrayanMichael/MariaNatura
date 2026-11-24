@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> MaríaNatura - Costa </title>
+    <link rel="stylesheet" href="css/costa.css">
+    <link rel="stylesheet" href="css/menu-footer.css">
+  </head>
+  <body>
+    <header class="encabezado">
+      <a class="marca" href="index.html"> MaríaNatura </a>
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false"> ☰ </button>
+      <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a class="activo" href="costa.html">Costa</a>
+        <a href="sierra.html"> Sierra </a>
+        <a href="selva.html"> Selva </a>
+      </nav>
+    </header>
+    <main>
+      <section class="pagina-hero" style="background-image:url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1500&q=85')">
+        <p class="sobrelinea"> REGIÓN 01 · LITORAL </p>
+        <h1> La Costa </h1>
+        <p> Entre el desierto y el océano, la costa peruana guarda oasis, acantilados y playas llenas de vida. </p>
+      </section>
+      <section class="pagina-contenido bloque">
+        <div>
+          <p class="sobrelinea"> UN PAISAJE DE CONTRASTES </p>
+          <h2> Donde el desierto <br> se encuentra con el mar. </h2>
+          <p> La franja costera del Perú se extiende junto al Pacífico. Sus ecosistemas incluyen lomas estacionales, humedales, playas y desiertos. Paracas y las islas cercanas son refugio de aves y fauna marina. </p>
+          <p> El mar frío de la corriente de Humboldt alimenta una extraordinaria biodiversidad y sostiene comunidades pesqueras a lo largo del litoral. </p>
+          <p class="dato"><strong> Para explorar: </strong> Reserva Nacional de Paracas · Ica </p>
+        </div>
+        <img class="pagina-imagen" src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&fit=crop&w=900&q=80" alt="Costa rocosa y océano Pacífico">
+      </section>
+      <section class="bloque galeria-region">
+        <div class="galeria-encabezado">
+          <div>
+            <p class="sobrelinea">PAISAJES COSTEROS</p>
+            <h2>Una costa por descubrir</h2>
+          </div>
+          <div class="carrusel-controles" aria-label="Controles de la galería">
+            <button class="carrusel-btn" type="button" data-dir="-1" aria-label="Ver imágenes anteriores">‹</button>
+            <button class="carrusel-btn" type="button" data-dir="1" aria-label="Ver imágenes siguientes">›</button>
+          </div>
+        </div>
+        <div class="galeria-carrusel" data-carousel tabindex="0" aria-label="Galería de costa">
+          <article class="carrusel-slide">
+            <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=800&q=85" alt="Olas del litoral" loading="lazy">
+            <div class="carrusel-leyenda">
+              <h3>Olas del litoral</h3>
+              <p>El Pacífico rompe sobre la costa peruana.</p>
+            </div>
+          </article>
+          <article class="carrusel-slide">
+            <img src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&fit=crop&w=800&q=85" alt="Acantilados del Pacífico" loading="lazy">
+            <div class="carrusel-leyenda">
+              <h3>Acantilados del Pacífico</h3>
+              <p>La costa rocosa mira al océano.</p>
+            </div>
+          </article>
+          <article class="carrusel-slide">
+            <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=800&q=85" alt="Mar abierto" loading="lazy">
+            <div class="carrusel-leyenda">
+              <h3>Mar abierto</h3>
+              <p>Horizontes de agua y cielo.</p>
+            </div>
+          </article>
+          <article class="carrusel-slide">
+            <img src="https://images.unsplash.com/photo-1509233725247-49e657c54213?auto=format&fit=crop&w=800&q=85" alt="Atardecer junto al mar" loading="lazy">
+            <div class="carrusel-leyenda">
+              <h3>Atardecer junto al mar</h3>
+              <p>La luz del atardecer pinta la playa.</p>
+            </div>
+          </article>
+          <article class="carrusel-slide">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=85" alt="Arena y horizonte" loading="lazy">
+            <div class="carrusel-leyenda">
+              <h3>Arena y horizonte</h3>
+              <p>Una pausa frente al mar.</p>
+            </div>
+          </article>
+        </div>
+        <p class="ayuda-carrusel">Desliza las imágenes o usa las flechas para explorar.</p>
+      </section>
+    </main>
+    <footer class="pie">
+      <small> © 2026 - María de los Ángeles Alexandra Lozano Gómez </small>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/carrusel.js"></script>
+  </body>
+</html>
